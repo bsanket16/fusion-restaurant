@@ -1,7 +1,7 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 
-const Promotions = require('../modals/promotions')
+const Promotions = require('../models/promotions')
 
 const promoRouter = express.Router()
 promoRouter.use(bodyParser.json())
